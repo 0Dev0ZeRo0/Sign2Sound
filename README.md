@@ -28,7 +28,7 @@ Libraries/packages:
 5. This timme, run added.ipynb, run it and select a respective number 1 or 2 to open numeric calc or sign detector.
 6. Boom, enjoy the working.
 
-#NOTE
+# NOTE
 The current code doesn't have any trained model, so make sure you create your own dataset or download it from various websites like Kaggle, etc., If incase you want to create dataset follow the below steps.
 1. Open data_collection.ipynb.
 2. There you will find a SIGN variable which u can change the values of it to create more signs.
@@ -40,7 +40,7 @@ The current code doesn't have any trained model, so make sure you create your ow
 8. BTW, the model can frame sentence and also give audio output.
 9. Coming to sentence, in corpus_engine.py, you will fine a variable called sentences, which you can use to add more sentences.
 
-#Working
+# Working
 1. When you show a sign, the model will get the word for that sign and if the corpus engine has a word of that sign in sentence, it will display the entire sentence.
 2. Didn't get it? Example below.
 3. Show a sign "Great"
